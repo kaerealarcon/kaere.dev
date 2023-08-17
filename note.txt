@@ -1,0 +1,18 @@
+Gráfico teia
+        Azul: Análise anterior
+        Amarelo: Análise atual
+        Verde: Média entre as duas
+    Fazer prototipação como filtro
+    
+    Tabela com as mesmas informações
+        Nome de coluna e nome de linha
+            Coluna
+                Anterior
+                Atual 
+                Média
+            Linha
+                Classes do gráfico
+
+Sidebar
+    Acrescentar
+        Botão - Consulta NFSe
