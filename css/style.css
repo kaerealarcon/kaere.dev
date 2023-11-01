@@ -18,6 +18,7 @@ body {
     position: absolute;
     mix-blend-mode: difference;
     pointer-events: none;
+    z-index: 1;
 }
 
 img {
@@ -41,7 +42,7 @@ ul {
 button {
     background-color: transparent;
     border: 0;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 html {
@@ -69,10 +70,16 @@ html {
     font-size: 1.6rem;
     transition: .3s ease;
     margin-bottom: 12rem;
+    margin: 6rem 0rem 6rem 0;
+
 }
 
 .container header nav ul li a:hover {
     color: #8020BB;
+}
+
+.container header nav ul li a img {
+    max-width: 33rem;
 }
 
 .s-hero .hero-text {
