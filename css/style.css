@@ -197,7 +197,7 @@ footer .social ul .medium a:hover {
     height: 0;
 } */
 
-footer .social ul .behance a::before {
+/* footer .social ul .behance a::before {
     content: url('../assets/behance-hover.svg');
     visibility: hidden;
     height: 0;
@@ -213,7 +213,7 @@ footer .social ul .medium a::before {
     content: url('../assets/medium-hover.svg');
     visibility: hidden;
     height: 0;
-}
+} */
 
 .signature {
     display: flex;
