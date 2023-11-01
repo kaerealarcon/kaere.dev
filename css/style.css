@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    cursor: none;
+}
+
+#custom-cursor {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    mix-blend-mode: difference;
+    pointer-events: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #000000;
+    color: #E2E2E2;
+}
+
+.container {
+    width: 100%;
+    max-width: 123.2rem;
+    margin: 0 auto;
+    padding: 8rem 0;
+}
+
+.container header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 4.3rem;
+    justify-content: center;
+}
+
+.container header nav ul li a {
+    color: #E2E2E2;
+    font-size: 1.6rem;
+    transition: .3s ease;
+    margin-bottom: 12rem;
+}
+
+.container header nav ul li a:hover {
+    color: #8020BB;
+}
+
+.s-hero .hero-text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 112rem;
+    width: 100%;
+    margin: 0 auto;
+    gap: 2.1rem;
+    margin-bottom: 8rem;
+}
+
+.s-hero .hero-text h1 {
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+
+.s-hero .hero-text h1 span {
+    color: #8020BB;
+    transition: .3s ease;
+}
+
+.s-hero .hero-text h1 span:hover {
+    color: #A1BA20;
+}
+
+.s-hero .hero-text p {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    max-width: 90rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+}
+
+.card a img {
+    transition: transform 0.3s ease;
+}
+
+.card a {
+    overflow: hidden;
+    border-radius: .7rem;
+}
+
+.card a img:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social ul {
+    display: flex;
+    align-items: center;
+    gap: 2.7rem;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 8rem;
+}
+
+footer .social ul .linkedin a:hover {
+    content: url('../assets/linkedin-hover.svg');
+}
+
+footer .social ul .behance a:hover {
+    content: url('../assets/behance-hover.svg');
+}
+
+footer .social ul .dribbble a:hover {
+    content: url('../assets/dribbble-hover.svg');
+}
+
+footer .social ul .medium a:hover {
+    content: url('../assets/medium-hover.svg');
+}
+
+.signature {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.signature p {
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    color: #E2E2E2;
+    font-weight: 400;
+}
+
+.signature span {
+    color: #8020BB;
+}

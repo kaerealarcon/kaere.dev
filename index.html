@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="custom-cursor"></div>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html"><img src="./assets/logo.svg" alt=""></a></li>
+                    <!-- <li><a href="#s-projects">Projetos</a></li> -->
+                    <!-- <li><a href="./404.html">Sobre</a></li> -->
+                    <!-- <li><a href="./404.html">Extras</a></li> -->
+                    <!-- <li><a href="./404.html">Fale comigo</a></li> -->
+                </ul>
+            </nav>
+        </header>
+
+        <section class="s-hero">
+            <div class="hero-text">
+                <h1>Olá, me chamo <span>Kaere</span>, sou desenvolvedor <span>Front-end</span> e <span>Product
+                        Designer</span>.</h1>
+                <p>Estou na área de tecnologia a quase 5 anos entregando soluções e transformando ideias em produtos
+                    incríveis, combinando tecnologia e design.</p>
+            </div>
+        </section>
+
+        <section class="s-projects" id="s-projects">
+            <div class="card-grid">
+                <div class="card">
+                    <a href="#">
+                        <img src="./assets/rappibank-logo.png" alt="">
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="#">
+                        <img src="./assets/tagchat-logo.png" alt="">
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="#">
+                        <img src="./assets/itau-logo.png" alt="">
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="#">
+                        <img src="./assets/embraer-logo.png" alt="">
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="#">
+                        <img src="./assets/bradesco-logo.png" alt="">
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="#">
+                        <img src="./assets/elastic-logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="social">
+                <ul>
+                    <li class="linkedin">
+                        <a href="https://www.linkedin.com/in/kaerealarcon" target="_blank" rel="noopener"><img
+                                src="./assets/linkedin.svg" alt=""></a>
+                    </li>
+                    <li class="behance">
+                        <a href="https://behance.net/kaerealarcon" target="_blank"><img src="./assets/behance.svg"
+                                alt=""></a>
+                    </li>
+                    <li class="dribbble">
+                        <a href="https://dribbble.com/kaerealarcon" target="_blank"><img src="./assets/dribbble.svg"
+                                alt=""></a>
+                    </li>
+                    <li class="medium">
+                        <a href="https://medium.com/@kaere" target="_blank"><img src="./assets/medium.svg" alt=""></a>
+                    </li>
+                </ul>
+
+                <div class="signature">
+                    <p>Todos os direitos e deveres reservados © <span>Kaere Alarcon</span></p>
+                    <img src="./assets/logo-small.svg" alt="">
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener("mousemove", (e) => {
+            const cursor = document.getElementById("custom-cursor");
+            cursor.style.left = e.pageX + "px";
+            cursor.style.top = e.pageY + "px";
+        });
+
+    </script>
+</body>
+
+</html>

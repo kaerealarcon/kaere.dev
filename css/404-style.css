@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Poppins", sans-serif;
+    cursor: none;
+}
+
+#custom-cursor {
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    mix-blend-mode: difference;
+    pointer-events: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: none;
+}
+
+button:hover {
+    cursor: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #000000;
+    color: #E2E2E2;
+}
+
+.container {
+    width: 100%;
+    max-width: 123.2rem;
+    margin: 0 auto;
+    padding: 8rem 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4.6rem;
+    margin-bottom: 4rem;
+}
+
+img {
+    max-height: 36.614rem;
+    border-radius: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+button {
+    width: 24rem;
+    height: 6rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: #8020BB;
+    font-size: 2rem;
+    color: #E2E2E2;
+    transition: .3s ease-in-out;
+}
+
+button:hover {
+    background: #E2E2E2;
+    color: #8020BB;
+}
+
+.social ul {
+    display: flex;
+    align-items: center;
+    gap: 2.7rem;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+footer .social ul .linkedin a:hover {
+    content: url('../assets/linkedin-hover.svg');
+}
+
+footer .social ul .behance a:hover {
+    content: url('../assets/behance-hover.svg');
+}
+
+footer .social ul .dribbble a:hover {
+    content: url('../assets/dribbble-hover.svg');
+}
+
+footer .social ul .medium a:hover {
+    content: url('../assets/medium-hover.svg');
+}
+
+.signature {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.signature p {
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    color: #E2E2E2;
+    font-weight: 400;
+}
+
+.signature span {
+    color: #8020BB;
+}

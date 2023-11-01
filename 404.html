@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/404-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="custom-cursor"></div>
+    <div class="container">
+        <div class="flex">
+            <img src="./assets/walking around.gif" alt="astronalta andando">
+            <div class="text">
+                <h1>Parece que você se perdeu :(</h1>
+                <p>Deseja voltar pro seu planeta natal?</p>
+            </div>
+            <button onclick="location.href = './index.html'" id="myButton">Voltar</button>
+        </div>
+
+        <footer>
+            <div class="social">
+                <ul>
+                    <li class="linkedin">
+                        <a href="https://www.linkedin.com/in/kaerealarcon" target="_blank" rel="noopener"><img
+                                src="./assets/linkedin.svg" alt=""></a>
+                    </li>
+                    <li class="behance">
+                        <a href="https://behance.net/kaerealarcon" target="_blank"><img src="./assets/behance.svg"
+                                alt=""></a>
+                    </li>
+                    <li class="dribbble">
+                        <a href="https://dribbble.com/kaerealarcon" target="_blank"><img src="./assets/dribbble.svg"
+                                alt=""></a>
+                    </li>
+                    <li class="medium">
+                        <a href="https://medium.com/@kaere" target="_blank"><img src="./assets/medium.svg" alt=""></a>
+                    </li>
+                </ul>
+
+                <div class="signature">
+                    <p>Todos os direitos e deveres reservados © <span>Kaere Alarcon</span></p>
+                    <img src="./assets/logo-small.svg" alt="">
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener("mousemove", (e) => {
+            const cursor = document.getElementById("custom-cursor");
+            cursor.style.left = e.pageX + "px";
+            cursor.style.top = e.pageY + "px";
+        });
+
+        document.getElementById("myButton").onclick = function () {
+            location.href = "./index.html";
+        }; //TODO: Verificar a adição de um loading toda vez que abrir uma nova página
+    </script>
+</body>
+
+</html>
