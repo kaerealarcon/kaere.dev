@@ -123,7 +123,7 @@ button:hover {
     margin-top: 10rem;
 }
 
-footer .social ul .linkedin a:hover {
+/* footer .social ul .linkedin a:hover {
     content: url('../assets/linkedin-hover.svg');
 }
 
@@ -137,7 +137,7 @@ footer .social ul .dribbble a:hover {
 
 footer .social ul .medium a:hover {
     content: url('../assets/medium-hover.svg');
-}
+} */
 
 .signature {
     display: flex;
