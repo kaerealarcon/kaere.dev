@@ -191,6 +191,30 @@ footer .social ul .medium a:hover {
     content: url('../assets/medium-hover.svg');
 }
 
+/* footer .social ul .linkedin a::before {
+    content: url('../assets/linkedin-hover.svg');
+    visibility: hidden;
+    height: 0;
+} */
+
+/* footer .social ul .behance a::before {
+    content: url('../assets/behance-hover.svg');
+    visibility: hidden;
+    height: 0;
+}
+
+footer .social ul .dribbble a::before {
+    content: url('../assets/dribbble-hover.svg');
+    visibility: hidden;
+    height: 0;
+}
+
+footer .social ul .medium a::before {
+    content: url('../assets/medium-hover.svg');
+    visibility: hidden;
+    height: 0;
+} */
+
 .signature {
     display: flex;
     align-items: center;
